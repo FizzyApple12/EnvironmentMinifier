@@ -15,6 +15,8 @@ EnvironmentMinifier is a barebones, chroma-style way to remove things from the s
 
 There is no in-game UI, only a config file. The ``EnvironmentRemoval`` property inside of the config allows you to define which objects to remove from the scene. You can read up on chroma if you want to learn more. (To use the stock config, simply delete the config file)
 
+note: there is a good chance this will interfere with custom platforms, however I will not be supporting issues caused by custom platforms, sorry about that
+
 <br/>
 
 ## What libraries or other plugins does it need?

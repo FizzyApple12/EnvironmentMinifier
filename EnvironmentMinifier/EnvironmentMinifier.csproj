@@ -106,7 +106,7 @@
   <ItemGroup>
     <Compile Include="ConfigLogContainer.cs" />
     <Compile Include="Configuration\PluginConfig.cs" />
-    <Compile Include="EnvironmentModifyer.cs" />
+    <Compile Include="EnvironmentModifier.cs" />
     <Compile Include="Installers\GameInstaller.cs" />
     <Compile Include="Installers\PluginInstaller.cs" />
     <Compile Include="Plugin.cs" />
