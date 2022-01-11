@@ -1,6 +1,6 @@
 ﻿using EnvironmentMinifier.Configuration;
 using IPA.Logging;
-using SiraUtil.Tools;
+using SiraUtil.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;

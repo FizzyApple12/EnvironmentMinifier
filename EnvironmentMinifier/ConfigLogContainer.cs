@@ -9,11 +9,9 @@ using Zenject;
 
 namespace EnvironmentMinifier {
     class ConfigLogContainer {
-        private readonly SiraLog siraLog;
         private readonly PluginConfig pluginConfig;
 
-        internal ConfigLogContainer(SiraLog siraLog, PluginConfig pluginConfig) {
-            this.siraLog = siraLog;
+        internal ConfigLogContainer(PluginConfig pluginConfig) {
             this.pluginConfig = pluginConfig;
         }
     }

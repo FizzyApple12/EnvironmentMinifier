@@ -40,9 +40,6 @@
     <DisableZipRelease>True</DisableZipRelease>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="FizzyUtils">
-      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Beat Saber\Plugins\FizzyUtils.dll</HintPath>
-    </Reference>
     <Reference Include="SiraUtil">
       <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Beat Saber\Plugins\SiraUtil.dll</HintPath>
     </Reference>

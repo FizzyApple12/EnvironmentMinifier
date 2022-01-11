@@ -9,18 +9,15 @@ using Zenject;
 using SiraUtil;
 
 namespace EnvironmentMinifier.Installers {
-    internal class PluginInstaller : Installer<Logger, PluginConfig, PluginInstaller> {
-        private readonly Logger logger;
+    internal class PluginInstaller : Installer<PluginConfig, PluginInstaller> {
         private readonly PluginConfig pluginConfig;
 
-        internal PluginInstaller(Logger logger, PluginConfig pluginConfig) {
-            this.logger = logger;
+        internal PluginInstaller(PluginConfig pluginConfig) {
             this.pluginConfig = pluginConfig;
         }
 
         public override void InstallBindings() {
             Container.BindInstance(pluginConfig);
-            Container.BindLoggerAsSiraLogger(logger);
             Container.BindInterfacesAndSelfTo<ConfigLogContainer>().AsSingle();
         }
     }
