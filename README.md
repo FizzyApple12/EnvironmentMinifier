@@ -23,7 +23,6 @@ note: there is a good chance this will interfere with custom platforms, however 
 
  * BSIPA
  * SiraUtil
- * FizzyUtils
 
 <br/>
 
